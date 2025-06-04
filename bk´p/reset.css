@@ -1,0 +1,43 @@
+/* reset.css */
+
+/* 1. Remove margens, paddings e bordas padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Remove bordas e outline de elementos focados */
+*:focus {
+  outline: none;
+}
+
+/* 3. Remove estilos de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* 4. Remove estilos de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. Remove estilos de tabela */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 6. Definições globais de tipografia */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+/* 7. Imagens responsivas */
+img {
+  max-width: 100%;
+  display: block;
+}
+    

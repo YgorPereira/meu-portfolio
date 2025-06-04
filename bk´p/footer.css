@@ -1,0 +1,36 @@
+footer {
+    max-width: 100%;
+    background-color: var(--primary-color);
+    position: relative;
+    bottom: 0;
+}
+
+.footer_wrapper {
+    display: flex;
+    width: 100%;
+    gap: 10rem;
+    padding: 1.5rem;
+}
+
+.footer_column {
+    text-align: center;
+}
+
+.column_title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.column_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.column_items a {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}

@@ -1,0 +1,68 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.main_apresentation {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.introducion_text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 60%;
+}
+
+.introducion_text h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.introducion_text p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.profile_picture img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tools_languages {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 3rem;
+    margin-top: 4.5rem;
+}
+
+.icons_row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 8rem;
+    border: solid 0.1rem var(--text-color);
+    border-radius: 1rem;
+    height: 8rem;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    transition: 0.2s ease-in-out;
+}
