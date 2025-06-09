@@ -32,14 +32,6 @@
                             </div>
                             <img src="<%= projeto.imagem %>" alt="<%= projeto.nome %>">
                         </div>
-                        <div>
-                            <strong>Tecnologias:</strong>
-                            <ul class="list-inline">
-                                <% projeto.tecnologias.forEach(function(tec) { %>
-                                    <li class="list-inline-item badge bg-secondary m-1"><%= tec %></li>
-                                <% }) %>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             <% }) %>

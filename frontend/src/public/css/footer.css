@@ -1,7 +1,8 @@
 footer {
+    display: flex;
     width: 100%;
     background-color: var(--primary-color);
-    position: relative;
+    /* position: relative; */
     bottom: 0;
 }
 
