@@ -1,0 +1,54 @@
+
+.carousel_canvas {
+
+    width: 100%;
+    margin-left: 0;
+}
+
+.carousel-item img {
+    width: 25rem;
+    height: 25rem;
+    object-fit: contain;
+}
+
+.carousel-inner,
+.carousel-item {
+    width: 100%;
+}
+
+.carousel_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.carousel_info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.carousel_info h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.carousel_info p {
+    font-size: 1.2rem;
+}
+
+.button {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.button:hover{
+    background-color: var(--secondary-color);
+}
